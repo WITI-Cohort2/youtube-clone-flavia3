@@ -6,8 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Youtube clone</title>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="index.css"/>
 </head>
 
 <body>
@@ -15,7 +14,7 @@
     <!-- header -->
     <div class="header">
       <div class="left_side">
-        <img src="icons/menu1.png" alt="menu_bar" />
+        <img src="icons/menu1.png" id="menu" alt="menu_bar" />
         <span></span>
         <span></span>
         <span></span>
@@ -26,11 +25,11 @@
           <input type="text" placeholder="Search" />
           <button type="submit"><img src="icons/searchicon.png" /></button>
         </form>
-        <img src="icons/mic.png">
+        <img src="icons/mic.png" id="mic">
       </div>
       <div class="right_side" >
-        <img src="icons/1-r .png" />
-        <img src="icons/bell2.png" />
+        <img id="r" src="icons/1-r .png" />
+        <img id="bell" src="icons/bell2.png" />
         <img src="icons/circle image1.png" />
       </div>
     </div>
@@ -76,11 +75,11 @@
       </a>
       <hr>
       <h4 class="sub">SUBSCRIPTION</h4>
-      <a>KateMadison</a>
+      <a id="x">KateMadison</a>
       <img src="icons/ktmdsn.png" id="k"/>
-      <a>Tyt dancefamily</a>
+      <a id="y">Tyt dancefamily</a>
       <img src="icons/tyt.png" id="m" />
-      <a >LearnCode.academy</a>
+      <a id="z" >LearnCode.academy</a>
       <img src="icons/lcadmy.png" id="n"/>
     </div>
     <!-- side_bar ends -->
@@ -93,11 +92,12 @@
         <a class="link_option">Mixes</a>
         <a class="link_option">Got Talent</a>
         <a class="link_option">JavaScript</a>
-        <a class="link_option">Brat TV</a>
+        <a class="link_option">Python</a>
         <a class="link_option">Tyler Perry</a>
         <a class="link_option">Java</a>
         <a class="link_option">Contemporary Worship Music</a>
         <a class="link_option">Databases</a>
+        <a class="link_option">Vocabulary</a>
       </div>
       <!-- filter bar ends -->
       <!-- video content begins -->
@@ -233,7 +233,7 @@
           </div>
           <div class="video_bottom_section">
             <div class="author">
-              <img src="icons/stvhvy.jpgm" />
+              <img src="icons/stvhvy.jpg" />
             </div>
             <div class="v_title">
               <h3>Six-Year-Old Author Ariana is Here To Steal Your Heart</h3>
